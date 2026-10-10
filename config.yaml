@@ -1,0 +1,36 @@
+llm:
+  model: openai/gpt-oss-20b
+  max_tokens: 12000
+  reasoning_effort: low
+
+
+chunking:
+  max_chars: 1500
+  overlap: 200
+
+vectordb:
+  path: data/vectorstore
+  collection: english_books
+
+retrieval:
+  top_k: 5
+
+course:
+  duration_min: 30
+  default_level: B1
+  explanation_language: French
+  default_level: B1
+  max_context_chars: 6000
+
+
+notion:
+  level_property: Niveau
+  topic_property: Thème
+  date_property: Date
+  status_property: Statut
+  status_value: À faire
+
+
+retrieval:
+  top_k: 5
+  max_distance: 1.2

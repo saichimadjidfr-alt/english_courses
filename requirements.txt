@@ -1,0 +1,11 @@
+chromadb==1.5.9
+pypdf
+ebooklib
+beautifulsoup4
+notion-client
+pyyaml
+python-dotenv
+pydantic
+groq
+requests
+tzdata
