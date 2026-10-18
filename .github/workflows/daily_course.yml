@@ -2,8 +2,8 @@ name: Daily English Course
 
 on:
   schedule:
-    - cron: "38 11 * * *"   # 9h à Paris (heure d'été)
-    - cron: "38 12 * * *"   # 9h à Paris (heure d'hiver)
+    - cron: "45 11 * * *"   # 9h à Paris (heure d'été)
+    - cron: "45 12 * * *"   # 9h à Paris (heure d'hiver)
   workflow_dispatch:       # bouton pour lancer à la main
 
 permissions:
