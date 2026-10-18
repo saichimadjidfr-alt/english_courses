@@ -39,7 +39,7 @@ jobs:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
           FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
-        run: python scripts/main.py
+        run: python main.py
 
       - name: Sauvegarder la progression
         run: |
